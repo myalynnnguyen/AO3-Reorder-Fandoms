@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "AO3 Fandom Reordering",
+    "version": "1.0",
+    "description": "Reordering fandoms by number of works",
+    "content_scripts" : [
+        {
+            "js" : ["scripts/content.js"],
+            "matches" : [
+                "https://archiveofourown.org/media/*/*"
+            ]
+        }
+    ]
+}
